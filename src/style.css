@@ -92,3 +92,7 @@ footer {
     font-size: 18px;
     color:#535353;
 }
+
+.caja-verde::before {
+    content: attr(data-label);
+}
