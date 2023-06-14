@@ -1,6 +1,6 @@
 const analyzer = {  
   getWordCount: (text) => {
-    const palabras = text.split (' ');
+    const palabras = text.trim().split(/\b[^s\d]+\b/);
     return palabras.length;
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
