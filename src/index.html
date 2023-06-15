@@ -12,10 +12,12 @@
     <h1>Analizador de texto</h1>
   </header>
 
+  <!--Necesito un cuadro donde la usuaria escriba o pegue su texto a analizar--> 
 <textarea name="user-input" placeholder="Escribe o pega un texto aquí..."></textarea>
 
+  <!--Necesito que las métricas aparezcan en cajitas, que conformen una <ul> con 6 hijitos <li>--> 
   <ul class="caja">
-    <li class="caja-verde" data-label="Caracteres: "></li>
+    <li class="caja-verde" data-label="Caracteres: "></li> <!--Data-label: atributo personalizable, solo la palabra data es predefinida-->
     <li class="caja-verde" data-label="Caracteres sin espacios: "></li>
     <li class="caja-verde" data-label="Palabras: "></li>
     <li class="caja-verde" data-label="Números: "></li>
@@ -23,8 +25,10 @@
     <li class="caja-verde" data-label="Promedio longitud: "></li>
   </ul>
 
+  <!--Necesito que exista un botón para que al darle click se reseteen las métricas y quede el cuadro de texto de la usuaria vacío--> 
   <button id="reset-button">Limpiar métricas</button>
 
+  <!--El footer es el pie de página donde siempre aparece la información de quien desarolló-->
   <footer>
     <p>Desarrollado por: Duarte Olimar.</p>
   </footer>
