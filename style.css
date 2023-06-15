@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(242, 255, 237);
+}
+
+header {
+	width: 90%;
+	height: 1vh;
+    text-align: center;
+	padding: 5%; /* Agrega un relleno interno alrededor del contenido */
+	color: #fff;
+	text-shadow: 1px 1px 1px #777676;
+    background-image: url(https://img.freepik.com/vector-premium/patron-alfabeto-vector-transparente-vibrante-letras-latinas-simples-fondo-repetible-inusual-moda-rosa-diseno-funky-minimalista_547648-3417.jpg);
+    border-radius: 80px;
+    display: flex; /* Activa el modelo de diseño flexible en el elemento */
+    flex-direction: column; /* Establece la dirección de los elementos hijos como columna */
+    align-items: center; /* Alinea los elementos hijos al centro horizontalmente */
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	margin-top: 1px; /* Agrega un margen inferior al elemento */
+}
+
+.caja {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+    margin-left: 30%;
+    list-style: none;
+    background-color:transparent; /* Color de fondo para cada elemento de la caja */
+    color: #fff;
+    width: 300px;
+    padding: 10px 20px; /* Relleno interno para cada elemento de la caja */
+    border-radius: 10px; /* Borde redondeado para cada elemento de la caja */
+    margin-bottom: 5px; /* Margen inferior para separar los elementos de la caja */
+    font-size: 20px;
+}
+
+.caja-verde {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+    margin-left: 65%;
+    list-style: none;
+    background-color: #759e61; /* Color de fondo para cada elemento de la caja */
+    color: #fff;
+    width: 300px;
+    padding: 10px 20px; /* Relleno interno para cada elemento de la caja */
+    border-radius: 10px; /* Borde redondeado para cada elemento de la caja */
+    margin-bottom: 5px; /* Margen inferior para separar los elementos de la caja */
+    font-size: 20px;
+}
+
+textarea[name="user-input"] {
+    margin-top: 20px;
+    margin-left: 28%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    width:800px;
+    height:150px;
+    border: 5px solid #b1b1b1;
+    padding: 0.5rem;
+    border-radius: 50px;
+    overflow: auto; /* Habilita la barra de desplazamiento si el contenido se desborda */
+    font-size: 20px;
+    color:#777676;   
+}
+
+#reset-button {
+    margin-left: 60%;
+    border: none;
+	outline: none;
+    font-family: 'Dancing Script', cursive;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #ffffff;
+	background: #F758B2;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+footer {
+    font-size: 15px;
+    margin-top: 20px;
+    background: #dddee1;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 50px;
+    font-size: 18px;
+    color:#535353;
+}
+
+.caja-verde::before {
+    content: attr(data-label);
+}
