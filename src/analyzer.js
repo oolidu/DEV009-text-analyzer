@@ -34,7 +34,7 @@ const analyzer = {
   },
 
   getNumberCount: (text) => {
-    const numeros = text.match(/\b\d+\b/g);
+    const numeros = text.match(/\b\d+(?:\.\d+)?\b/g);
     if (numeros) {
       return numeros.length;
     }
@@ -45,15 +45,11 @@ const analyzer = {
   },
 
   getNumberSum: (text) => {
-    const numeros = text.match(/[-+]?[0-9]*\.?[0-9]/g);
+    const numeros = text.match(/\b\d+(\.\d+)?\b/g) || [];
     console.log(numeros);
-    if (numeros) {
-      const sum = numeros.reduce((acc, num) => acc + parseFloat(num), 0);
-      return sum;
-    }
-    else {
-      return 0;
-    }
+    const totalSum = numeros.length > 0 ? numeros.map(num => Number(num)).reduce((acc, num) => acc + num, 0) : 0;
+
+    return totalSum;
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
   },
 
