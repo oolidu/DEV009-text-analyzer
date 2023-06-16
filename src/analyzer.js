@@ -26,7 +26,7 @@ const analyzer = {
     }
 
     const longitudMedia = longitudTotal / totalPalabras;
-    console.log(typeof longitudMedia.toFixed(2));
+    //console.log(typeof longitudMedia.toFixed(2));
     return Number(longitudMedia.toFixed(2));
 
     //reutilizar trim, split (' '), lenth,    
@@ -46,7 +46,7 @@ const analyzer = {
 
   getNumberSum: (text) => {
     const numeros = text.match(/\b\d+(\.\d+)?\b/g) || [];
-    console.log(numeros);
+    //console.log(numeros);
     const totalSum = numeros.length > 0 ? numeros.map(num => Number(num)).reduce((acc, num) => acc + num, 0) : 0;
 
     return totalSum;
