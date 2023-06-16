@@ -96,15 +96,15 @@ test.describe('Para un texto sin números válidos:', () => {
 });
 
 test.describe('Botón:', () => {
-  
+
   test.beforeEach(async ({ page }) => {
     await page.goto('http://localhost:3000/');
-    const textarea = await page.locator('textarea[name="user-input"]');  
+    const textarea = await page.locator('textarea[name="user-input"]');
     await textarea.click();
     await textarea.type(TEST_TEXT_NO_NUMBERS);
   });
 
-  test('Limpia caja de texto', async ({ page }) => {.
+  test('Limpia caja de texto', async ({ page }) => {
     const TEST_TEXT_EMPTY = '';
     const textarea = await page.locator('textarea[name="user-input"]');
     await expect(textarea).toHaveValue(TEST_TEXT_NO_NUMBERS);
@@ -119,7 +119,7 @@ test.skip('Opcional:', () => {
   const TEST_TEXT_EMPTY = '';
   const TEST_TEXT_SPACES = '       ';
   const TEST_TEXT_PUNCTUATION_MARKS = '.,;:"«»[]{}()¿?¡!-';
-  
+
   test.describe('Para un texto con sólo signos de puntuación:', () => {
 
     test.beforeEach(async ({ page }) => {
