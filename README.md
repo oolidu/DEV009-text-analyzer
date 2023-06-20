@@ -1,9 +1,9 @@
 # Analizador de texto
 
-## ÍndiceAAA
+## Índice
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
-* [2. Preámbulo](#2-preámbulo)
+* [2. Prototipo](#2-prototipo)
 * [3. Funcionalidades](#3-funcionalidades)
 * [4. Boilerplate](#4-boilerplate)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -17,20 +17,18 @@
 
 ## 1. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+* Este proyecto lo he resuelto de manera **individual**, aunque definitivamente necesité de otras personas, compañeras y coachs.
+* El rango de tiempo estimado para completar el proyecto era de 1 a 3 Sprints y a mi me tomó 2 Sprints y medio, el medio fue el README.
+* Mantuve la premisa de enfocarme en aprender y no solamente en "completar" el proyecto, me costó.
+* Considero que este proyecto sigue en proceso. Es evidente al ver el resultado final con respecto a mi prototipo inicial.
 
-## 2. Preámbulo
+## 2. Prototipo
 
 ![Una lupa sobre texto de libro](https://github.com/Laboratoria/bootcamp/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
 
 _Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-
+![Prototipo 1.2](image.png)
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
 natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
