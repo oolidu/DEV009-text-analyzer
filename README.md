@@ -23,7 +23,7 @@
 
 ![Prototipo 1.2](image.png)
 
-_Credito: Imagen de Oli [Oli]. En la imagen se muestra el prototipo.
+_Credito: Imagen de Oli. En la imagen se muestra el prototipo inicial.
 
 Mi analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas funciones de lógica sencilla matemática.
@@ -116,18 +116,6 @@ dándole las instrucciones específicas. La consola me ayudó a saber que de lo 
 quería decirle me iba captando realmente, es un poco como leer la mente antes de ver
 la acción o resultado en sí mismo.
 
-***
-
-#### Deploy
-
-Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
-la web puedan acceder a él es algo común en proyectos de desarrollo de software.
-
-En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
-
-El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
- consultar su [documentación oficial](https://docs.github.com/es/pages).
-
 ## 5. Criterios de aceptación mínimos del proyecto
 
 Me encanta contar con esta ruta de objetivos para mi desarrollo como front-end 
@@ -137,7 +125,7 @@ en cada proyecto, aún no los domino todos, pero los reconozco.
 
 * **Uso de HTML semántico**
 
-  - De acá destaco: [<textarea>], [`<button>`], [`<ul>`] y [`<li>`], sobre ellos aprendí 
+  - De acá destaco: [`<textarea>`], [`<button>`], [`<ul>`] y [`<li>`], sobre ellos aprendí 
     más en este proyecto. Y me siento más cómoda para usarlos en el futuro.
 
 ### CSS
@@ -152,7 +140,8 @@ en cada proyecto, aún no los domino todos, pero los reconozco.
 * **Modelo de caja (box model): border, margen, padding**
 
   - Es un reto para mi esta parte, aprendí más sobre box model pero me hace falta practicar
-    y practicar. Gráficamente puede causar un efecto estético muy bueno.
+    y practicar. Gráficamente puede causar un efecto estético muy bueno. Estoy aprovechando
+    mi tiempo de gym semanal, en parte, también para este propósito.
 
 ### Web APIs
 
@@ -235,12 +224,14 @@ Finalmente en GitHub Action al hacer un _push_ en la rama _main_ de mi repositor
 pude hacer que se ejecutaran automáticamente las pruebas unitarias, pruebas de 
 criterios mínimos de aceptación y pruebas end-to-end. 
 
+***
+
 ### 7. Entregable
 
 ![Entregable](image-1.png)
 
-_Credito: Imagen de Oli [Oli]. En la imagen se muestra el prototipo.
+_Credito: Imagen de Oli. En la imagen se muestra el resultado.
 
-Cambié mi plan de acción en el proceso. Preferí darle prioridad a las funcionalidad, 
+Cambié mi plan de acción en el proceso. Preferí darle prioridad a las funcionalidades 
 antes que a la imagen. Me siento satisfecha con el resultado ya que es adecuado
 para los criterios de aceptación. Sin embargo está en proceso.  
