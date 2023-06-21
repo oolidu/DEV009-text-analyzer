@@ -196,16 +196,16 @@ usuarias en el centro**. Esta parte no solo me gusta sino que me fluye mucho ent
 
 ## 6. Pruebas
 
-Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
-cumples los criterios mínimos de aceptación.
+Para este proyecto conté con 3 conjuntos de pruebas que me ayudaron a conocer si
+cumplía los criterios mínimos de aceptación.
 
 ### Pruebas unitarias
 
-Luché mucho con `npm run test` pero es mejor comprenderlo. Puede ser la vieja confiable.
+Luché mucho con `npm run test` pero es mejor comprenderlo. Puede ser una "vieja confiable".
 
 ### Pruebas de criterios mínimos de aceptación
 
-Necesario ejecutarlas a medida que codeas. Pero que las pases no significa que 
+Es necesario ejecutarlas a medida que codeas. Pero que las pases no significa que 
 estás 100% bien.
 * `npm run test:oas-html`
 * `npm run test:oas-css`
